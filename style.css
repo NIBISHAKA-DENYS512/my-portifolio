@@ -183,7 +183,11 @@ section[id] {
     font-family: var(--font-code);
     font-weight: 600;
 }
-
+.logo-icon img{
+width: 40px;
+height: 40px;
+border-radius: 10px;
+}
 .nav-menu {
     display: flex;
     align-items: center;
@@ -924,6 +928,20 @@ section[id] {
     border: 1px solid var(--border);
     border-radius: 10px;
 }
+.media-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    margin-bottom: 1px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+}
 
 .contact-icon {
     width: 43px;
@@ -934,6 +952,15 @@ section[id] {
     background: rgba(37, 99, 235, 0.15);
     border-radius: 9px;
 }
+ .contact-icon img{
+     width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    background: rgba(37, 99, 235, 0.15);
+    border-radius: 9px;
+ }
 
 .contact-detail {
     min-width: 0;
@@ -1061,7 +1088,7 @@ section[id] {
 
 .form-disclaimer {
     color: var(--text-muted);
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 15px;
     line-height: 1.6;
 }
