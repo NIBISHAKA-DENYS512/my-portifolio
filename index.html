@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio of Nibishaka Denys, Software Developer from Musanze, Rwanda.">
+    <meta name="author" content="Nibishaka Denys">
+
+    <title>Nibishaka Denys | Software Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="top">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">ND</span>
+                <span>Nibishaka <strong>Denys</strong></span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle"
+                    aria-label="Switch to light theme"
+                    title="Toggle theme">
+                <span id="themeIcon" aria-hidden="true">☀</span>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+
+                    <span class="welcome">
+                        <span class="status-dot"></span>
+                        Welcome to my portfolio
+                    </span>
+
+                    <p class="greeting">Hello, I'm</p>
+
+                    <h1>Nibishaka <span>Denys</span></h1>
+
+                    <h2>Software Developer</h2>
+
+                    <p class="hero-description">
+                        Passionate Software Developer building practical
+                        management systems and web/mobile applications
+                        that solve real-world problems.
+                    </p>
+
+                    <div class="hero-location">
+                        <span aria-hidden="true">📍</span>
+                        Musanze, Northern Province, Rwanda
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects →
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-social">
+                        <span>Let's connect and build something useful.</span>
+                    </div>
+
+                </div>
+
+                <!-- Developer code visual -->
+                <div class="hero-visual reveal">
+
+                    <div class="code-window">
+
+                        <div class="code-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span class="code-filename">developer.js</span>
+                        </div>
+
+                        <div class="code-content">
+<pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Nibishaka Denys"</span>,
+  role: <span class="code-green">"Software Developer"</span>,
+
+  location: <span class="code-green">"Rwanda"</span>,
+
+  skills: [
+    <span class="code-green">"PHP"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"Python"</span>,
+    <span class="code-green">"Dart"</span>,
+    <span class="code-green">"React"</span>,
+    <span class="code-green">"Node.js"</span>
+  ],
+
+  passion: <span class="code-green">"Building solutions"</span>
+};
+
+<span class="code-purple">function</span> <span class="code-blue">createSolutions</span>() {
+  <span class="code-purple">return</span> <span class="code-green">"Making ideas real!"</span>;
+}</code></pre>
+                        </div>
+
+                        <div class="code-footer">
+                            <span>● Available for learning and collaboration</span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge badge-one">
+                        <span>💻</span> Full Stack Development
+                    </div>
+
+                    <div class="floating-badge badge-two">
+                        <span>🚀</span> Creative Problem Solving
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">GET TO KNOW ME</span>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little introduction about my background and interests.</p>
+                </div>
+
+                <div class="about-grid">
+
+                    <article class="about-card reveal">
+                        <div class="about-icon">👨‍💻</div>
+
+                        <h3>Who I Am</h3>
+
+                        <p>
+                            I am a Software Developer based in Musanze,
+                            Rwanda, currently studying at Lycée de Ruhengeri
+                            APICUR.
+                        </p>
+
+                        <p>
+                            I specialize in building full-stack web
+                            applications and management systems using PHP,
+                            JavaScript, Python, and Dart, along with modern
+                            technologies such as React, Node.js, and
+                            Tailwind CSS.
+                        </p>
+
+                        <p>
+                            My interest is in developing practical digital
+                            solutions that help people and organizations
+                            solve real-world problems.
+                        </p>
+
+                    </article>
+
+                    <article class="about-card reveal">
+                        <div class="about-icon">🌍</div>
+
+                        <h3>Personal Information</h3>
+
+                        <ul class="info-list">
+                            <li>
+                                <strong>Name:</strong>
+                                <span>Nibishaka Denys</span>
+                            </li>
+
+                            <li>
+                                <strong>Profession:</strong>
+                                <span>Software Developer</span>
+                            </li>
+
+                            <li>
+                                <strong>School:</strong>
+                                <span>Lycée de Ruhengeri APICUR</span>
+                            </li>
+
+                            <li>
+                                <strong>Location:</strong>
+                                <span>Musanze, Rwanda</span>
+                            </li>
+                        </ul>
+                    </article>
+
+                </div>
+
+
+                <!-- Spoken Languages -->
+                <div class="languages-area reveal">
+
+                    <div class="subheading">
+                        <h3>Spoken Languages</h3>
+                        <p>Languages I use to communicate.</p>
+                    </div>
+
+                    <div class="language-grid">
+
+                        <div class="language-card">
+                            <span>🇷🇼</span>
+                            <h4>Kinyarwanda</h4>
+                            <p>Native / Fluent</p>
+                        </div>
+
+                        <div class="language-card">
+                            <span>🌐</span>
+                            <h4>English</h4>
+                            <p>Proficient</p>
+                        </div>
+
+                        <div class="language-card">
+                            <span>🇫🇷</span>
+                            <h4>French</h4>
+                            <p>Proficient</p>
+                        </div>
+
+                        <div class="language-card">
+                            <span>🌍</span>
+                            <h4>Kiswahili</h4>
+                            <p>Basic / Minimal</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">WHAT I WORK WITH</span>
+                    <h2>Technical <span>Skills</span></h2>
+                    <p>Programming languages and technologies I work with.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+                        <div class="skill-heading">
+                            <span class="skill-icon">⌨️</span>
+                            <div>
+                                <h3>Programming Languages</h3>
+                                <p>Core programming technologies</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-list">
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>Dart</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-heading">
+                            <span class="skill-icon">⚙️</span>
+                            <div>
+                                <h3>Frameworks & Technologies</h3>
+                                <p>Tools for application development</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-list">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">MY RECENT WORK</span>
+                    <h2>Featured <span>Projects</span></h2>
+                    <p>Some of the software solutions I have worked on.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual stock-visual">
+                            <span>📦</span>
+                            <p>INVENTORY MANAGEMENT</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">PROJECT 01</span>
+
+                            <h3>Stock Management System</h3>
+
+                            <p>
+                                A system designed to track inventory,
+                                monitor stock levels, and streamline
+                                product management.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-small btn-outline"
+                                        type="button"
+                                        disabled
+                                        title="Demo link not provided">
+                                    Live Demo
+                                </button>
+
+                                <button class="btn btn-small btn-primary"
+                                        type="button"
+                                        disabled
+                                        title="Source code link not provided">
+                                    Source Code
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual farmers-visual">
+                            <span>🌱</span>
+                            <p>AGRICULTURAL DATA</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">PROJECT 02</span>
+
+                            <h3>Farmers Chart System</h3>
+
+                            <p>
+                                A data visualization and tracking platform
+                                built to help monitor agricultural metrics
+                                and farmer records.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-small btn-outline"
+                                        type="button"
+                                        disabled
+                                        title="Demo link not provided">
+                                    Live Demo
+                                </button>
+
+                                <button class="btn btn-small btn-primary"
+                                        type="button"
+                                        disabled
+                                        title="Source code link not provided">
+                                    Source Code
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual student-visual">
+                            <span>🎓</span>
+                            <p>ACADEMIC ADMINISTRATION</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">PROJECT 03</span>
+
+                            <h3>Student Management System</h3>
+
+                            <p>
+                                An academic administration tool for
+                                organizing student records, enrollment,
+                                and school data.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>JavaScript</span>
+                                <span>CSS3</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-small btn-outline"
+                                        type="button"
+                                        disabled
+                                        title="Demo link not provided">
+                                    Live Demo
+                                </button>
+
+                                <button class="btn btn-small btn-primary"
+                                        type="button"
+                                        disabled
+                                        title="Source code link not provided">
+                                    Source Code
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 4 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual apicur-visual">
+                            <span>🏫</span>
+                            <p>INSTITUTIONAL SOFTWARE</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">PROJECT 04</span>
+
+                            <h3>APICUR System</h3>
+
+                            <p>
+                                A dedicated institutional software solution
+                                developed for Lycée de Ruhengeri APICUR.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-small btn-outline"
+                                        type="button"
+                                        disabled
+                                        title="Demo link not provided">
+                                    Live Demo
+                                </button>
+
+                                <button class="btn btn-small btn-primary"
+                                        type="button"
+                                        disabled
+                                        title="Source code link not provided">
+                                    Source Code
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+        <section class="section education-section" id="education">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">MY ACADEMIC JOURNEY</span>
+                    <h2>My <span>Education</span></h2>
+                    <p>My educational background and learning journey.</p>
+                </div>
+
+                <div class="timeline">
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+                            <span class="education-status">CURRENT</span>
+
+                            <h3>Lycée de Ruhengeri APICUR</h3>
+
+                            <p class="education-level">
+                                Secondary School
+                            </p>
+
+                            <p>
+                                Currently studying at Lycée de Ruhengeri
+                                APICUR while developing my software
+                                development knowledge and practical skills.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+                            <h3>Rutoyi Primary School</h3>
+
+                            <p class="education-level">
+                                Primary School
+                            </p>
+
+                            <p>
+                                Completed my primary school education
+                                at Rutoyi Primary School.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">GET IN TOUCH</span>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>
+                        Have a project idea or want to connect?
+                        Feel free to reach out.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <!-- Contact information -->
+                    <div class="contact-info reveal">
+
+                        <h3>Let's Talk</h3>
+
+                        <p>
+                            I am interested in connecting with people,
+                            discussing software development, and
+                            exploring opportunities to build useful
+                            applications.
+                        </p>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+
+                            <div class="contact-detail">
+                                <span>Email</span>
+                                <a href="mailto:nibishakadenys935@gmail.com">
+                                    nibishakadenys935@gmail.com
+                                </a>
+
+                                <button class="copy-email"
+                                        id="copyEmail"
+                                        type="button">
+                                    Copy Email
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+
+                            <div class="contact-detail">
+                                <span>Phone</span>
+                                <a href="tel:+250791243615">
+                                    +250 791 243 615
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+
+                            <div class="contact-detail">
+                                <span>Location</span>
+                                <p>Busogo, Musanze, Rwanda</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-note">
+                            <span>💡</span>
+                            Let's turn creative ideas into practical
+                            software solutions.
+                        </div>
+
+                    </div>
+
+
+                    <!-- Contact form -->
+                    <div class="contact-form-card reveal">
+
+                        <h3>Send Me a Message</h3>
+
+                        <form id="contactForm" novalidate>
+
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+
+                                <input type="text"
+                                       id="name"
+                                       name="name"
+                                       placeholder="Enter your name"
+                                       autocomplete="name"
+                                       required>
+
+                                <small class="error-message"
+                                       id="nameError"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+
+                                <input type="email"
+                                       id="email"
+                                       name="email"
+                                       placeholder="example@email.com"
+                                       autocomplete="email"
+                                       required>
+
+                                <small class="error-message"
+                                       id="emailError"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+
+                                <textarea id="message"
+                                          name="message"
+                                          rows="5"
+                                          placeholder="Write your message..."
+                                          required></textarea>
+
+                                <small class="error-message"
+                                       id="messageError"></small>
+                            </div>
+
+                            <button type="submit"
+                                    class="btn btn-primary submit-btn">
+                                Send Message →
+                            </button>
+
+                            <p id="formStatus"
+                               class="form-status"
+                               role="status"
+                               aria-live="polite"></p>
+
+                            <p class="form-disclaimer">
+                                This demonstration form validates your
+                                message locally. It does not send email
+                                until connected to a backend service.
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">ND</span>
+                <span>Nibishaka <strong>Denys</strong></span>
+            </a>
+
+            <p>
+                Building practical solutions through technology.
+            </p>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="currentYear"></span>
+                    Nibishaka Denys. All rights reserved.
+                </p>
+
+                <a href="#home" class="back-to-top"
+                   aria-label="Back to top">
+                    ↑
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
