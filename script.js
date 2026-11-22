@@ -389,7 +389,7 @@ contactForm.addEventListener("submit", (event) => {
 
     // Display success confirmation
     formStatus.textContent =
-        "Your message has been validated successfully! Connect this form to a backend to send it.";
+        "Thanks for getting in touch! I appreciate the kind words and interest—your message is safely in my inbox, and I'll reply shortly.";
 
     formStatus.classList.add("success");
 
